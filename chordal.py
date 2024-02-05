@@ -1,0 +1,27 @@
+C = ["C", "E", "G"]
+D = ["D", "F#", "A"]
+E = ["E", "G#", "B"]
+F = ["F", "A", "C"]
+G = ["G", "B", "D"]
+A = ["A", "C#", "E"]
+B = ["B", "D#", "F#"]
+Am = ["A", "C", "E"]
+Bm = ["B", "D", "F#"]
+Dm = ["D", "F", "A"]
+Em = ["E", "G", "B"]
+Gm = ["G", "Bb", "D"]
+Am7 = ["A", "C", "E", "G"]
+Em7 = ["E", "G#", "B", "D"]
+Dm7 = ["D", "F#", "A", "C#"]
+Caug = ["C", "E", "G#"]
+Daug = ["D", "F#", "A#"]
+Cdim = ["C", "Eb", "Gb"]
+Edim = ["E", "G", "Bb"]
+D7 = ["D", "F#", "A", "C"]
+G7 = ["G", "B", "D", "F"]
+C7_min = ["C", "E", "G", "Bb"]
+D7_max = ["D", "F#", "A", "C"]
+
+ChordalTempletes = {"C": C, "D": D, "E": E, "F": F, "G": G, "A": A, "B": B, "Am": Am, "Bm": Bm, "Dm": Dm, "Em": Em,
+                    "Gm": Gm,"Am7": Am7, "Em7": Em7, "Dm7": Dm7, "Caug": Caug, "Daug": Daug, "Cdim": Cdim, "Edim": Edim,
+                    "D7": D7, "G7": G7, "C7_min": C7_min, "D7_max": D7_max}
